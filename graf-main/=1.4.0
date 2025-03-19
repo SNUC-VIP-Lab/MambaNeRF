@@ -1,0 +1,15 @@
+Collecting causal-conv1d
+  Downloading causal_conv1d-1.4.0.tar.gz (9.3 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: torch in /home/viplab/miniconda3/envs/nerf_clone/lib/python3.8/site-packages (from causal-conv1d) (1.12.1+cu116)
+Requirement already satisfied: packaging in /home/viplab/miniconda3/envs/nerf_clone/lib/python3.8/site-packages (from causal-conv1d) (24.2)
+Collecting ninja (from causal-conv1d)
+  Using cached ninja-1.11.1.3-py3-none-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.metadata (5.3 kB)
+Requirement already satisfied: typing-extensions in /home/viplab/miniconda3/envs/nerf_clone/lib/python3.8/site-packages (from torch->causal-conv1d) (4.12.2)
+Using cached ninja-1.11.1.3-py3-none-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (422 kB)
+Building wheels for collected packages: causal-conv1d
+  Building wheel for causal-conv1d (setup.py): started
+  Building wheel for causal-conv1d (setup.py): finished with status 'error'
+  Running setup.py clean for causal-conv1d
+Failed to build causal-conv1d
