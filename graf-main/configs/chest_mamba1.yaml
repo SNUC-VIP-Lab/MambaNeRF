@@ -1,4 +1,4 @@
-expname: chest_all_360_mamba_1blocks
+expname: mamba_1_block_trainset_training
 data:
   datadir: /media/viplab/DATADRIVE1/mednerf_drr_poses_pixelnerf/chest
   type: drr
@@ -16,4 +16,4 @@ training:
   nworkers: 0
   mamba_blocks: 1
   batch_size: 8
-  video_every: 1000
+  video_every: 5000

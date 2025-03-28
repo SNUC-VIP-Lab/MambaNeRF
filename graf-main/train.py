@@ -221,8 +221,10 @@ if __name__ == '__main__':
     print('it {}: start with LR:\n\td_lr: {}\tg_lr: {}'.format(it, d_optimizer.param_groups[0]['lr'], g_optimizer.param_groups[0]['lr']))
 
     # Training loop
+    STEPS = 30000
+
     print('Start training...')
-    while True:
+    while it < STEPS:
         epoch_idx += 1
         print('Start epoch %d...' % epoch_idx)
 
@@ -324,3 +326,4 @@ if __name__ == '__main__':
 
                 if (restart_every > 0 and t0 - tstart > restart_every):
                     exit(3)
+            if (it > STEPS): break

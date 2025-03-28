@@ -10,8 +10,8 @@ data:
   type: drr
   umax: 1.0
   umin: 0
-  vmax: 1
-  vmin: 0
+  vmax: 0.45642212862617093
+  vmin: 0.32898992833716556
   white_bkgd: false
 discriminator:
   hflip: false

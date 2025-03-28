@@ -16,7 +16,7 @@ data:
 discriminator:
   hflip: false
   ndf: 64
-expname: chest_all_360_mamba_1blocks
+expname: chest_all_360_mamba_1blocks_stopped
 nerf:
   N_importance: 0
   N_samples: 64
